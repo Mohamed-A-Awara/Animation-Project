@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(46, 80, 80) ;
+}
+.page-tilte{
+    margin-top: 50px;
+}
+.title{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    color: rgb(218, 218, 224);
+}
+.line
+{
+    width: 150px;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid rgb(160, 160, 172);
+    margin-bottom: 20px;
+    transition: 1s;
+}
+.page-tilte:hover .line{
+    width: 250px;
+}
+
+/* Animation style */
+.div1,.div2,.div3,.div4{
+    height: 150px;
+    width: 200px;
+
+}
+.div5,.div6,.div7,.div8{
+    height: 150px;
+    width: 200px;
+}
+/* Div - 1 */
+.div1{
+    background-image: url(..//images/Animation-photo.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top:150px;
+    left: 50px;
+    animation-name: car-1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    transition: 1s;
+}
+@keyframes car-1{
+    0%{
+        left: 50px;
+        transform: scale(1);
+    }
+    100%{
+        left: 1300px;
+        transform: scale(1.5);
+    }
+}
+/* Div 2  */
+.div2{
+    background-image: url(..//images/Animation-2.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 250px;
+    right: 50px;
+    animation-name: car-2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 2s;
+    transition: 1s;
+    transform: scale(1.3);
+}
+@keyframes car-2{
+    0%{
+        right: 50px;
+        transform: scale(1.1);
+    }
+    100%{
+        right: 1200px;
+        transform: scale(2);
+    }
+}
+/* Div - 3 */
+.div3{
+    background-image: url(..//images/Animation-photo.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    animation-name: car-1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 4s;
+    transition: 1s;
+}
+
+/* Div - 4 */
+.div4{
+    background-image: url(..//images/Animation-2.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 450px;
+    right: 50px;
+    animation-name: car-2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 6s;
+    transition: 1s;
+    /* transform: scale(1.3); */
+}
+/* Div - 5  */
+.div5{
+    background-image: url(..//images/Animation-photo.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 550px;
+    left: 50px;
+    animation-name: car-1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 8s;
+    transition: 1s;
+}
+.div6{
+    background-image: url(..//images/Animation-2.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 650px;
+    right: 50px;
+    animation-name: car-2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 10s;
+    transition: 1s;
+    /* transform: scale(1.3); */
+}
+.div7{
+    background-image: url(..//images/Animation-photo.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 750px;
+    left: 50px;
+    animation-name: car-1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 12s;
+    transition: 1s;
+}
+.div8{
+    background-image: url(..//images/Animation-2.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 850px;
+    right: 50px;
+    animation-name: car-2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 14s;
+    transition: 1s;
+    /* transform: scale(1.3); */
+}
